@@ -25,7 +25,7 @@
     <!-- Start Header -->
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Bin Saeed Solutions</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,9 +39,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link me-3" href="#">About Us</a>
-            <a class="nav-link me-3" href="#">Services</a>
+            <a class="nav-link active" aria-current="page" href="navbar">Home</a>
+            <a class="nav-link me-3" href="#AboutUs">About Us</a>
+            <a class="nav-link me-3" href="#services">Services</a>
             <a class="nav-link me-3" href="#">Careers</a>
             <a class="nav-link me-3" href="#">Contact Us</a>
           </div>
@@ -215,14 +215,16 @@
     <!-- start Services section -->
     <section class="services" id="services">
       <div class="container text-center">
-        <h1 class="text-white pt-5">Services</h1>
-        <p class="text-white mb-5">
-          We offer end-to-end next-generation IT services and solutions across
-          <br />industry verticals from small Businesses to Enterprises,
-          worldwide.
-        </p>
+        <div data-aos="zoom-in" data-aos-duration="1000">
+          <h1 class="text-white pt-5">Services</h1>
+          <p class="text-white mb-5">
+            We offer end-to-end next-generation IT services and solutions across
+            <br />industry verticals from small Businesses to Enterprises,
+            worldwide.
+          </p>
+        </div>
 
-        <div class="row">
+        <div class="row" data-aos="zoom-in" data-aos-duration="3000">
           <div class="col-lg-4 col-sm-6 col-md-6">
             <div class="card">
               <a href="#">
@@ -269,7 +271,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="zoom-in" data-aos-duration="3000">
           <div class="col-lg-4 col-sm-6 col-md-6">
             <div class="card">
               <a href="#">
@@ -321,7 +323,7 @@
 
     <!-- start Why Choose Us section -->
   <section>
-    <div class="pt-5 pb-5" data-aos="fade-down" data-aos-duration="3000">
+    <div class="pb-5" data-aos="fade-down" data-aos-duration="3000">
       <div class="container text-center">
         <div class="col-lg-12 pt-5 pb-5">
           <h1 class="text-center" id="WhyChooseUs">Why Choose Us</h1>
@@ -403,14 +405,14 @@
 
   <!-- Start Footer section -->
   <section class="footer pt-5 pb-4">
-    <div class="container-fluid pt-4 ml-5">
-      <div class="row">
-        <div class="col-lg-3 col-xs col-md-6 last-res-end">
+    <div class="container-fluid pt-4">
+      <div class="row ms-2">
+        <div class="col-lg-3 col-xs col-md-6 text-center last-res-end">
           <img src="./assets/images/KhatTech.png" class="img-fluid"
-            height="250px" width="250px" alt="" /><br />
-          <div class="ms-5 pl-1 last-res-end-2">
+            height="250px" width="250px" alt="" />
+          <div>
             <a href="#">
-              <i class="fab fa-facebook-square text-light h3 text-light ms-2"></i>
+              <i class="fab fa-facebook-square text-light h3 text-light"></i>
             </a>
 
             <a href="#" target="_blank">
@@ -421,7 +423,7 @@
           </div>
         </div>
         <div class="col-lg-2 col-xs col-md-6 pt-3">
-          <span class="footer-heading">Quick Links</span><br /><br />
+          <p>Quick Links</p>
 
           <p>
             <a class="" href="#">About Us</a>
@@ -441,7 +443,7 @@
           </p>
         </div>
         <div class="col-lg-3 col-xs pt-3 col-md-6">
-          <span class="footer-heading">Services</span><br /><br />
+          <p>Services</p>
 
           <p>
             <a class="" href="#">Software Development</a>
@@ -461,8 +463,8 @@
           </p>
         </div>
         <div class="col-lg-4 col-xs pt-3 col-md-6">
-          <span class="footer-heading">Reach us</span><br />
-          <div class="pt-4">
+          <p>Reach Us</p>
+          <div>
             <img src="./assets/images/Gmail.png" height="26px" width="30px" alt="" />
             <span class="ms-2">
               <a href="#">Info@khat-tech.com</a></span>

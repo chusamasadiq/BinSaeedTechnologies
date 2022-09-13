@@ -87,6 +87,11 @@ a:hover {
   }
   .services {
     background-color: #0b3685;
-    height: 2500px;
+    height: 2300px;
+  }
+  @media only screen and (max-width: 600px) {
+    .footer .last-res-end{
+    margin-left: -6rem!important;
+    }
   }  
 }
